@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: 'Readex Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(img/pic\ 1.jfif);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    height:10px;
+    width:89%;
+    background-color: lightyellow;
+    display:flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link{
+    flex:1;
+    text-align: right;
+
+}
+.nav_link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+.nav_link ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+li:hover {
+    background-color: lightseagreen;
+  }
+  .text_box{
+      width:90%;
+      color:#fff;
+      position: absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+  }
+  .text_box h1{
+      font-size: 62px;
+  }
+  .text_box p{
+      margin: 10px 0 40px;
+      font-size: 14px;
+      color:#fff;
+  }
+  .course{
+      width:80%;
+      margin:auto;
+      text-align: center;
+      padding-top: 100px;
+  }
+    
+
+  .row{
+      margin-top:5%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .course_col{
+      flex-basis: 31%;
+      
+      padding: 20px 12px;
+      box-sizing: border-box;
+  }
+  h3{
+      text-align: center;
+      font-weight: 600;
+      margin: 10px 0;
+  }
+  .course_2{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 0px;
+}
+/*---- mid_course-----*/
+.mid_course{
+    min-height:100vh;
+    width:100%;
+    
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(214, 213, 214);
+    
+}
+.mid_course h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+ p{
+    color:777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:10px;
+    margin-top: 2%;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 7px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  
+  .button1 {background-color: #008CBA;} 
+
+  button:hover{
+      background-color: blue;
+  }
+     
+  
+  .row_1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .course_col2{
+    flex-basis: 31%;
+    border-radius: 0px;
+     margin-bottom: 5%;
+     padding: 20px  10px;
+     box-sizing: border-box;
+     background-color: white;
+     margin-left: 10px;
+     margin-right: 10px;
+
+    
+    
+  }
+  .row_2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .mid_course2{
+   
+        min-height:120vh;
+        width:100%;
+        
+        margin:auto;
+        text-align: center;
+        padding-top: 100px;
+        background-color:rgb(231, 231, 231)
+        
+    
+  }
+  .mid_course2 h1{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.mid_course2 p{
+    color:777;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding:10px;
+    margin-top: 3%;
+}
+.border_box{
+    height:500px;
+    width:300px;
+    
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    float:left;
+    
+}
+.text{
+    height:500px;
+    width:300px;
+    text-align: center;
+    margin:auto;
+    text-align: center;
+    
+    font-size: x-large;
+    font-weight: 300;
+    background-color:white;
+
+}
+.btn{border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 7px;
+    cursor: pointer;
+    margin-top: 5%;
+    background-color: #008CBA;
+  }
+  .footer{ min-height:100vh;
+    width:100%;
+    
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color:rgb(248, 246, 241);
+    
+
+}
+.footer h1{
+font-size: 36px;
+font-weight: 600;
+
+}
+.footer p{
+color:777;
+font-size: 14px;
+font-weight: 500;
+line-height: 22px;
+padding:10px;
+margin-top: 3%;
+}
+
+.footer_text{
+    float:left;
+    flex-basis: 31%;
+    border-radius: 0px;
+     margin-bottom: 5%;
+     padding: 20px  10px;
+     margin-left: 100px;
+     margin-right: 10px;
+}
+
+      
+  
+  
+  
+   
+
+ 
